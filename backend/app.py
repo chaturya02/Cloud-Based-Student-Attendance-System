@@ -48,7 +48,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Azure Face API configuration
-FACE_API_KEY = os.getenv("FACE_APIKEY", "4uEgB3aZTHDotOTRFAu8En02WA776eDKDa56KknOlsHiI1IdVMGaJQQJ99BCACGhslBXJ3w3AAAKACOGA0XX")
+FACE_API_KEY = os.getenv("FACE_APIKEY", "Your_api_key")
 FACE_API_ENDPOINT = os.getenv("FACE_ENDPOINT", "https://inguva.cognitiveservices.azure.com/")
 
 # Validate Azure Face API credentials
